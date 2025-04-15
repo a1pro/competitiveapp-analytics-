@@ -1,0 +1,34 @@
+{
+  "name": "react-native-check-apps",
+  "version": "1.0.2",
+  "description": "Check if specific apps are installed in a React Native app",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-native-check-apps.git"
+  },
+  "keywords": [
+    "react-native",
+    "apps",
+    "installed",
+    "check",
+    "react-native-linking"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react-native": ">=0.60.0"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.60.0",
+    "axios": "^1.0.0",
+    "react-native-device-info": "^10.0.0"
+  },
+  "scripts": {
+    "build": "echo 'Building package...'",
+    "prepare": "echo 'Preparing package...'",
+    "test": "echo \"No tests specified\" && exit 1"
+  }
+}
